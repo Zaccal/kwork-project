@@ -55,8 +55,8 @@ button {
   .circle-mask {
     mask-image: linear-gradient(
       to bottom,
-      black 82.5%,
-      transparent 82.5%
+      black 83%,
+      transparent 83%
     ) !important;
   }
 }
@@ -90,5 +90,28 @@ button {
 }
 
 .mission {
-  background: url("/mission-bg.png") top center / cover no-repeat;
+  background: url("/mission-bg.png") top center no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 64rem) {
+  .mission {
+    background-size: 100% auto;
+    background-position: top center;
+    /* aspect-ratio: 1600 / 900; */
+  }
+}
+
+.mission__quote {
+  position: relative;
+}
+
+.mission__quote::before {
+  content: "";
+  background: url("/el_quotes.svg") center center / contain no-repeat;
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  top: -20px;
+  left: -100px;
 }
