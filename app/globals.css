@@ -1,26 +1,94 @@
+@import url("https://fonts.cdnfonts.com/css/camieis");
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #ffffff;
+  --camieis: "Camieis";
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-camieis: var(--camieis);
 }
 
 body {
-  background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: url("/bg.png") center center / cover no-repeat;
+}
+
+button {
+  @apply cursor-pointer;
+}
+
+.btn_light {
+  background: url("/btn-bg-light.png") center center / contain no-repeat;
+}
+
+.header_bg {
+  clip-path: polygon(0 0, 100% 0, calc(100% - 60px) 100%, 60px 100%);
+}
+
+@media (max-width: 64rem) {
+  .header_bg {
+    clip-path: none;
+  }
+}
+
+.container {
+  @apply max-w-[1400px] mx-auto px-2 md:px-6 lg:px-4;
+}
+
+.hero {
+  background: url("/hero-bg.png") bottom center / cover no-repeat;
+}
+
+.clip-path-button {
+  clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%);
+}
+
+.circle-mask {
+  mask-image: linear-gradient(to bottom, black 76.1%, transparent 76.1%);
+}
+
+@media (max-width: 1024px) {
+  .circle-mask {
+    mask-image: linear-gradient(
+      to bottom,
+      black 82.5%,
+      transparent 82.5%
+    ) !important;
+  }
+}
+
+.btn-primary {
+  background: url("/btn-bg-primary.png") center center / contain no-repeat;
+}
+
+.btn-secondary {
+  background: url("/btn-bg-secondary.png") center center / contain no-repeat;
+}
+
+.overview {
+  background: url("/big-solder.png") no-repeat;
+  background-size: 40%;
+  background-position: right bottom;
+}
+
+@media (max-width: 64rem) {
+  .overview {
+    background: none;
+  }
+}
+
+.trailer {
+  background: url("/trailer.png") center center / contain no-repeat;
+}
+
+.btn_watch-trailer {
+  background: url("/btn-texture.png") center center / contain no-repeat;
+}
+
+.mission {
+  background: url("/mission-bg.png") top center / cover no-repeat;
 }
