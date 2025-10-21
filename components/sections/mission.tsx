@@ -11,7 +11,7 @@ const Mission = () => {
         height={180}
       />
       <Image
-        className="absolute w-[126px] h-[55px] sm:w-[226px] sm:h-[85px] md:w-[226px] md:h-[85px] lg:w-[380px] lg:h-[180px] -right-14 lg:right-0 -top-6"
+        className="absolute w-[126px] h-[55px] sm:w-[226px] sm:h-[85px] md:w-[226px] md:h-[85px] lg:w-[380px] lg:h-[180px] -right-10 lg:right-0 -top-6"
         src={"/element-right-side.png"}
         alt="element-right-side"
         width={380}

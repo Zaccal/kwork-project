@@ -72,6 +72,16 @@ const atypDisplay = localFont({
   ],
 });
 
+export const rimma = localFont({
+  src: [
+    {
+      path: "../fonts/rimma/rimma-sans-bold.ttf",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+});
+
 export default function RootLayout({
   children,
 }: Readonly<{
