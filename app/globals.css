@@ -10,11 +10,12 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-camieis: var(--camieis);
+  ----breakpoint-2xl: 1400px;
 }
 
 body {
   color: var(--foreground);
-  background: url("/bg.png") center center / cover no-repeat;
+  background: url("/bg.png") center center / cover;
 }
 
 button {
@@ -132,8 +133,20 @@ button {
   aspect-ratio: 9 / 5;
 }
 
+@media (max-width: 1024px) {
+  .features__content {
+    background: none;
+  }
+}
+
 .features__wrapper {
   background: url("/feature-container.png") center center / cover no-repeat;
+}
+
+@media (max-width: 1400px) {
+  .features__wrapper {
+    background: none;
+  }
 }
 
 .features__texts {
@@ -143,4 +156,11 @@ button {
   mask-image: url("/mask-feature.png");
   mask-repeat: no-repeat;
   mask-size: cover;
+}
+
+@media (max-width: 1024px) {
+  .features__texts {
+    mask-image: none;
+    border: 1px solid #b0b0b0;
+  }
 }

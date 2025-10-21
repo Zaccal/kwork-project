@@ -23,25 +23,24 @@ const Features = () => {
           <span className="z-10 relative">features</span>
         </h1>
       </div>
-
-      <div className="features__content relative z-10 mx-10 mt-[52px]">
-        <div className="features__wrapper z-10 flex items-end justify-between pb-[83px] pr-[72px] pl-[92px] mt-5 mb-[42px] h-full ml-[98px] mr-[46px]">
-          <div className="features__texts w-fit pr-[231px] pl-[28px] pb-[133px] pt-[40px]">
+      <div className="features__content relative z-10 justify-center items-center flex lg:block mt-5 lg:mx-10 lg:mt-[182px] 2xl:mt-[52px]">
+        <div className="features__wrapper z-10 px-2 lg:flex items-end justify-between lg:pb-[83px] lg:pr-[72px] lg:pl-[92px] lg:mt-5 lg:mb-[42px] h-full lg:ml-[98px] lg:mr-[46px]">
+          <div className="features__texts w-fit px-6 py-6 lg:pr-[231px] lg:pl-[28px] lg:pb-[133px] lg:pt-[40px]">
             <Image
               src={"/feature-element.svg"}
               alt="feature-element"
-              className="ml-8.5"
+              className="ml-8.5 2xl:block hidden"
               width={108}
               height={95}
             />
 
             <div className="flex items-center uppercase gap-[17px]">
-              <h2 className="text-[48px] relative w-fit font-camieis mt-[30px]">
+              <h2 className="text-nowrap text-xl lg:text-[48px] relative w-fit font-camieis mt-[30px]">
                 - Weapons
               </h2>
-              <span className={` text-[24px]  ${rimma.className}`}>+10</span>
+              <span className={`lg:text-[24px] ${rimma.className}`}>+10</span>
             </div>
-            <p className="leading-[140%] max-w-[342px] pl-8.5">
+            <p className="leading-[140%] max-w-[342px] lg:pl-8.5 mt-3">
               The player's arsenal includes a variety of weapons: rifles,
               circular saws, swarms of self-guided missiles, napalm drones, and
               much more. In addition to weapons, skills such as jumping,
@@ -49,17 +48,24 @@ const Features = () => {
               game, 4-8 skills are available. As goals are achieved, dozens of
               different skills and new characters are unlocked.
             </p>
+            <Image
+              width={351}
+              height={351}
+              src={"/feature-bg.png"}
+              className="mt-5 mb-6 lg:hidden block"
+              alt="feature-container"
+            />
             <div className="flex items-center uppercase gap-[17px]">
-              <h2 className="text-[48px] relative w-fit font-camieis mt-[30px]">
+              <h2 className="text-nowrap text-xl lg:text-[48px] relative w-fit font-camieis mt-[30px]">
                 - location
               </h2>
-              <span className={` text-[24px]  ${rimma.className}`}>+5</span>
+              <span className={`lg:text-[24px] ${rimma.className}`}>+5</span>
             </div>
             <div className="flex items-center uppercase gap-[17px]">
-              <h2 className="text-[48px] relative w-fit font-camieis mt-[30px]">
+              <h2 className="text-nowrap text-xl lg:text-[48px] relative w-fit font-camieis mt-[30px]">
                 - Heroes
               </h2>
-              <span className={` text-[24px]  ${rimma.className}`}>+3</span>
+              <span className={`lg:text-[24px] ${rimma.className}`}>+3</span>
             </div>
           </div>
           <Image
@@ -67,6 +73,7 @@ const Features = () => {
             alt="feature-element-2"
             width={366}
             height={182}
+            className="hidden 2xl:block"
           />
         </div>
       </div>
@@ -75,14 +82,14 @@ const Features = () => {
         alt="feature-bg-left-element"
         width={507}
         height={167}
-        className="absolute top-[16%] right-0 z-[1]"
+        className="absolute top-[18%] right-0 z-[1] hidden xl:block"
       />
       <Image
         src={"/feature-bg-right-element.jpg"}
-        alt="feature-bg-left-element"
+        alt="feature-bg-right-element"
         width={507}
         height={167}
-        className="absolute top-[16%] left-0 z-[1]"
+        className="absolute top-[18%] left-0 z-[1] hidden xl:block"
       />
     </section>
   );
