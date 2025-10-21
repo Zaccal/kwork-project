@@ -1,3 +1,4 @@
+import Characters from "@/components/sections/characters";
 import Features from "@/components/sections/features";
 import Header from "@/components/sections/header";
 import HeroSection from "@/components/sections/hero";
@@ -13,6 +14,7 @@ export default function Home() {
       <OverviewSection />
       <Mission />
       <Features />
+      <Characters />
     </main>
   );
 }
