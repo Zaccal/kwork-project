@@ -2,20 +2,20 @@ import Image from "next/image";
 
 const Mission = () => {
   return (
-    <section className="mission relative h-screen mt-[-55px] font-camieis pb-0 pt-[214px] lg:pt-[333px]">
+    <section className="mission relative font-camieis mt-[-55px] pb-[162px] pt-[214px] lg:pt-[333px]">
       <Image
-        className="absolute w-[136px] h-[70px] lg:w-[410px] lg:h-[94px] -left-8 lg:left-0 -top-6"
+        className="absolute  left-0 -top-6"
         src={"/element-left-side.png"}
         alt="element-left-side"
-        width={410}
-        height={94}
+        width={380}
+        height={180}
       />
       <Image
-        className="absolute w-[136px] h-[70px] lg:w-[410px] lg:h-[94px] -right-8 lg:right-0 -top-6"
+        className="absolute  right-0 -top-6"
         src={"/element-right-side.png"}
         alt="element-right-side"
-        width={410}
-        height={94}
+        width={380}
+        height={180}
       />
 
       <h1 className="uppercase relative -mt-[78px] lg:mt-0 text-[32px] lg:text-[100px] text-center">

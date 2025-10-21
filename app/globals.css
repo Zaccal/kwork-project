@@ -90,16 +90,7 @@ button {
 }
 
 .mission {
-  background: url("/mission-bg.png") top center no-repeat;
-  background-size: cover;
-}
-
-@media (max-width: 64rem) {
-  .mission {
-    background-size: 100% auto;
-    background-position: top center;
-    /* aspect-ratio: 1600 / 900; */
-  }
+  background: url("/mission-bg.png") bottom center / cover no-repeat;
 }
 
 .mission__quote {
