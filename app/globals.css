@@ -165,6 +165,10 @@ button {
   }
 }
 
+.characters {
+  padding-top: 277px;
+}
+
 .characters__wrapper {
   background: url("/charaters-bg.png");
   background-size: contain auto;
@@ -174,4 +178,15 @@ button {
 
 .character__card {
   background: url("/character-bg-card.png") center center / contain no-repeat;
+}
+
+@media (max-width: 64rem) {
+  .characters {
+    padding-top: 102px;
+  }
+
+  .characters__wrapper {
+    background-color: #d70403;
+    background-image: none;
+  }
 }
