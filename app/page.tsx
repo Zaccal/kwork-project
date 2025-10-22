@@ -4,6 +4,7 @@ import Header from "@/components/sections/header";
 import HeroSection from "@/components/sections/hero";
 import Mission from "@/components/sections/mission";
 import OverviewSection from "@/components/sections/overviewSection";
+import Weapons from "@/components/sections/weapons";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Mission />
       <Features />
       <Characters />
+      <Weapons />
     </main>
   );
 }

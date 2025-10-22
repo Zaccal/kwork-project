@@ -190,3 +190,7 @@ button {
     background-image: none;
   }
 }
+
+.weapon {
+  background: url("/weapon-bg.png") bottom center / contain no-repeat;
+}
