@@ -80,6 +80,7 @@ export const rimma = localFont({
       style: "normal",
     },
   ],
+  variable: "--rimma",
 });
 
 export default function RootLayout({
@@ -89,7 +90,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`antialiased ${atypDisplay.className}`}>{children}</body>
+      <body
+        className={`antialiased ${rimma.variable} ${atypDisplay.className}`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
