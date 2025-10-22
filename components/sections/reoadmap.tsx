@@ -55,6 +55,7 @@ const Reoadmap = () => {
             <div className="embla__slide">
               <ReoadmapCard
                 title="2026 Q4"
+                active
                 items={[
                   "Beta Readiness",
                   "NFT Usage",
@@ -108,6 +109,7 @@ const Reoadmap = () => {
             <div className="embla__slide">
               <ReoadmapCard
                 title="2026 Q4"
+                active
                 items={[
                   "Beta Readiness",
                   "NFT Usage",

@@ -1,17 +1,31 @@
 "use client";
+
+import { cn } from "@/lib/utils";
 import Image from "next/image";
 
 interface ReoadmapCardProps {
   title: string;
   items: string[];
+  active?: boolean;
 }
 
-const ReoadmapCard = ({ title, items }: ReoadmapCardProps) => {
+const ReoadmapCard = ({ title, items, active = false }: ReoadmapCardProps) => {
   return (
     <>
       <div className="max-w-[374px]">
-        <div className="font-rimma bg-[url('/roadmap-card.png')] bg-no-repeat bg-cover w-full max-w-[336px] pr-[170px] pl-[28px] py-3.5">
-          <p className={`uppercase text-2xl text-nowrap  text-black`}>
+        <div
+          className={cn(
+            "font-rimma bg-[url('/roadmap-card.png')] bg-no-repeat bg-cover w-full max-w-[336px] pr-[170px] pl-[28px] py-3.5",
+            active &&
+              "bg-[url('/roadmap-card-active.png')] bg-no-repeat bg-cover"
+          )}
+        >
+          <p
+            className={cn(
+              "uppercase text-2xl text-nowrap text-black",
+              active && "text-white"
+            )}
+          >
             {title}
           </p>
         </div>
