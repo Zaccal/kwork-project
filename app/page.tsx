@@ -26,7 +26,7 @@ export default function Home() {
       <Tokenomics />
       <Reoadmap />
       <News />
-      {/* <Footer /> */}
+      <Footer />
     </main>
   );
 }
