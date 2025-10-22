@@ -22,7 +22,7 @@ export default function Home() {
       <Features />
       <Characters />
       <Weapons />
-      {/* <GameModels /> */}
+      <GameModels />
       {/* <Tokenomics /> */}
       {/* <Reoadmap /> */}
       {/* <News /> */}
