@@ -5,6 +5,7 @@ import Header from "@/components/sections/header";
 import HeroSection from "@/components/sections/hero";
 import Mission from "@/components/sections/mission";
 import OverviewSection from "@/components/sections/overviewSection";
+import Tokenomics from "@/components/sections/tokenomics";
 import Weapons from "@/components/sections/weapons";
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <Characters />
       <Weapons />
       <GameModels />
+      <Tokenomics />
     </main>
   );
 }
