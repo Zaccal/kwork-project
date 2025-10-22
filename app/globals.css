@@ -207,3 +207,8 @@ button {
   min-width: 0;
   flex: 0 0 calc(100% / 5);
 }
+
+.embla__slide_one-half {
+  min-width: 0;
+  flex: 0 0 calc(100% / 1.5);
+}

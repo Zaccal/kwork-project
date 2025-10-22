@@ -21,7 +21,7 @@ export default function Home() {
       <Mission />
       <Features />
       <Characters />
-      {/* <Weapons /> */}
+      <Weapons />
       {/* <GameModels /> */}
       {/* <Tokenomics /> */}
       {/* <Reoadmap /> */}
