@@ -46,7 +46,7 @@ const News = () => {
           Stay tuned for the latest news and updates coming soon!
         </h1>
         <div className="flex justify-center pt-[31px] md:mt-[60px] md:pb-[54px] mb-[47px]">
-          <button className="btn_watch-trailer font-camieis text-base md:text-2xl mx-auto text-white px-[51px] text-nowrap py-[24px]">
+          <button className="bg-[url('/news-btn.png')] bg-contain bg-center bg-no-repeat font-camieis text-base md:text-2xl mx-auto text-white px-[51px] text-nowrap py-[24px]">
             Subscribe
           </button>
         </div>

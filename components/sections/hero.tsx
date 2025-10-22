@@ -69,7 +69,10 @@ export default function HeroSection({ children }: HeroSectionProps) {
           </button>
         </div>
         <div className="mx-auto w-fit mt-8 lg:mt-[45px] flex items-center gap-8 lg:gap-[50px]">
-          <a href="#">
+          <a
+            target="_blank"
+            href="https://x.com/atumsabyss?amp;t=ZWtpFXI_vRnyFtYoUAlwcw"
+          >
             <Image
               src="/X.png"
               alt="X"
@@ -78,7 +81,7 @@ export default function HeroSection({ children }: HeroSectionProps) {
               className="w-8 h-auto lg:w-[50px]"
             />
           </a>
-          <a href="#">
+          <a target="_blank" href="https://discord.gg/atumsabyss">
             <Image
               src="/discord.png"
               alt="Discord"
@@ -87,7 +90,7 @@ export default function HeroSection({ children }: HeroSectionProps) {
               className="w-8 h-auto lg:w-[50px]"
             />
           </a>
-          <a href="#">
+          <a target="_blank" href="https://t.me/AtumsAbyss">
             <Image
               src="/telegram.png"
               alt="Telegram"
@@ -96,7 +99,7 @@ export default function HeroSection({ children }: HeroSectionProps) {
               className="w-8 h-auto lg:w-[50px]"
             />
           </a>
-          <a href="#">
+          <a target="_blank" href="https://t.me/+1Hy1N675pqg2ZjYy">
             <Image
               src="/telegram-chat.png"
               alt="Telegram Chat"

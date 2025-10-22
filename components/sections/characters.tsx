@@ -110,7 +110,7 @@ const Characters = () => {
       <Image
         src={"/characters-bottom-element.svg"}
         alt="characters-bottom-element"
-        className="mx-auto w-[90vw] mt-[45px]"
+        className="mx-auto w-[90vw] mt-[45px] lg:block hidden"
         width={1600}
         height={68}
       />

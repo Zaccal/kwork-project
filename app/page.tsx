@@ -17,13 +17,18 @@ export default function Home() {
       <HeroSection>
         <Header />
       </HeroSection>
-      <OverviewSection />
-      <Mission />
-      <Features />
-      <Characters />
+      <div className="overflow-x-hidden max-w-screen">
+        <OverviewSection />
+        <Mission />
+        <Features />
+        <Characters />
+      </div>
       <Weapons />
-      <GameModels />
-      <Tokenomics />
+
+      <div className="overflow-x-hidden max-w-screen">
+        <GameModels />
+        <Tokenomics />
+      </div>
       <Reoadmap />
       <News />
       <Footer />

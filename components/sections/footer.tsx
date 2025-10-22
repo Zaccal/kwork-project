@@ -12,13 +12,16 @@ const Footer = () => {
           height={91}
         />
         <div className="hidden md:flex items-center gap-[42px]">
-          <a href="#">
+          <a
+            href="https://x.com/atumsabyss?amp;t=ZWtpFXI_vRnyFtYoUAlwcw"
+            target="_blank"
+          >
             <Image src={"/X.png"} alt="X" width={24} height={24} />
           </a>
-          <a href="#">
+          <a href="https://discord.gg/atumsabyss" target="_blank">
             <Image src={"/discord.png"} alt="Discord" width={24} height={24} />
           </a>
-          <a href="#">
+          <a href="https://t.me/AtumsAbyss" target="_blank">
             <Image
               src={"/telegram.png"}
               alt="Telegram"
@@ -37,16 +40,19 @@ const Footer = () => {
         <p>Privacy Policy</p>
       </div>
       <div className="flex md:hidden mx-auto w-fit mt-[32px] items-center gap-[42px]">
-        <a href="#">
+        <a
+          href="https://x.com/atumsabyss?amp;t=ZWtpFXI_vRnyFtYoUAlwcw"
+          target="_blank"
+        >
           <Image src={"/X.png"} alt="X" width={24} height={24} />
         </a>
-        <a href="#">
+        <a href="https://discord.gg/atumsabyss" target="_blank">
           <Image src={"/discord.png"} alt="Discord" width={24} height={24} />
         </a>
-        <a href="#">
+        <a href="https://t.me/AtumsAbyss" target="_blank">
           <Image src={"/telegram.png"} alt="Telegram" width={24} height={24} />
         </a>
-        <a href="#">
+        <a href="https://t.me/+1Hy1N675pqg2ZjYy" target="_blank">
           <Image
             src={"/telegram-chat.png"}
             alt="Telegram Chat"
