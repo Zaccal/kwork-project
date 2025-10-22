@@ -9,10 +9,11 @@ const Reoadmap = () => {
   });
 
   return (
-    <section className="pb-[117px]">
-      <h1 className="font-camieis uppercase text-[100px] text-center mb-[142px]">
+    <section className="pb-[117px] md:pt-0 pt-[60px]">
+      <h1 className="font-camieis uppercase text-[32px] md:text-5xl lg:text-6xl xl:text-[100px] text-center mb-[37px] md:mb-[142px]">
         Roadmap
       </h1>
+
       <div className="w-screen flex items-start gap-[62px]">
         <div ref={emblaRef} className="embla w-full">
           <div className="embla__container gap-[70px]">

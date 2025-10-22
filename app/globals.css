@@ -208,6 +208,24 @@ button {
   flex: 0 0 calc(100% / 5);
 }
 
+@media (max-width: 1400px) {
+  .embla__slide {
+    flex: 0 0 calc(100% / 3);
+  }
+}
+
+@media (max-width: 1024px) {
+  .embla__slide {
+    flex: 0 0 calc(100% / 2);
+  }
+}
+
+@media (max-width: 900px) {
+  .embla__slide {
+    flex: 0 0 calc(100% / 1.2);
+  }
+}
+
 .embla__slide_one-half {
   min-width: 0;
   flex: 0 0 calc(100% / 1.5);
