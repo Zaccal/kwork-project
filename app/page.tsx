@@ -1,5 +1,6 @@
 import Characters from "@/components/sections/characters";
 import Features from "@/components/sections/features";
+import Footer from "@/components/sections/footer";
 import GameModels from "@/components/sections/game-models";
 import Header from "@/components/sections/header";
 import HeroSection from "@/components/sections/hero";
@@ -20,11 +21,12 @@ export default function Home() {
       <Mission />
       <Features />
       <Characters />
-      <Weapons />
-      <GameModels />
-      <Tokenomics />
-      <Reoadmap />
-      <News />
+      {/* <Weapons /> */}
+      {/* <GameModels /> */}
+      {/* <Tokenomics /> */}
+      {/* <Reoadmap /> */}
+      {/* <News /> */}
+      {/* <Footer /> */}
     </main>
   );
 }
