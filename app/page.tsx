@@ -25,7 +25,7 @@ export default function Home() {
       <GameModels />
       <Tokenomics />
       <Reoadmap />
-      {/* <News /> */}
+      <News />
       {/* <Footer /> */}
     </main>
   );
