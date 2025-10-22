@@ -4,6 +4,7 @@ import GameModels from "@/components/sections/game-models";
 import Header from "@/components/sections/header";
 import HeroSection from "@/components/sections/hero";
 import Mission from "@/components/sections/mission";
+import News from "@/components/sections/news";
 import OverviewSection from "@/components/sections/overviewSection";
 import Reoadmap from "@/components/sections/reoadmap";
 import Tokenomics from "@/components/sections/tokenomics";
@@ -23,6 +24,7 @@ export default function Home() {
       <GameModels />
       <Tokenomics />
       <Reoadmap />
+      <News />
     </main>
   );
 }
