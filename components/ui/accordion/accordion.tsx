@@ -1,7 +1,7 @@
 "use client";
 
+import type { Dispatch, SetStateAction, ReactElement } from "react";
 import { createContext } from "@/hooks/createContext";
-import { Dispatch, SetStateAction, type ReactElement } from "react";
 
 export type AccordionSetter =
   | Dispatch<SetStateAction<string | null>>

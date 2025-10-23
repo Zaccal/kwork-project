@@ -2,9 +2,11 @@
 
 import Image from "next/image";
 import useEmblaCarousel from "embla-carousel-react";
+import { useState } from "react";
 
 const Weapons = () => {
   const [emblaRef] = useEmblaCarousel();
+  const [value, setValue] = useState(1);
 
   const cards = [
     { id: 1, normal: "/card-1.png", hover: "/card-1-hover.png" },
@@ -31,14 +33,27 @@ const Weapons = () => {
         <div className="embla__container gap-[46px]">
           {cards.map((card) => (
             <div key={card.id} className="embla__slide_one-half">
-              <Image
-                src={card.normal}
-                alt={`card-${card.id}`}
-                width={400}
-                height={642}
-                loading="eager"
-                className="min-w-[222px] min-h-[333px]"
-              />
+              {card.id === value ? (
+                <Image
+                  onClick={() => setValue(card.id)}
+                  src={card.hover}
+                  alt={`card-${card.id}`}
+                  width={400}
+                  height={642}
+                  loading="eager"
+                  className="min-w-[222px] min-h-[333px]"
+                />
+              ) : (
+                <Image
+                  src={card.normal}
+                  onClick={() => setValue(card.id)}
+                  alt={`card-${card.id}`}
+                  width={400}
+                  height={642}
+                  loading="eager"
+                  className="min-w-[222px] min-h-[333px]"
+                />
+              )}
             </div>
           ))}
         </div>

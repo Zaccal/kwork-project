@@ -21,8 +21,9 @@ export default function Home() {
         <OverviewSection />
         <Mission />
         <Features />
-        <Characters />
       </div>
+
+      <Characters />
       <Weapons />
 
       <div className="overflow-x-hidden max-w-screen">
