@@ -81,7 +81,7 @@ export default function HeroSection({ children }: HeroSectionProps) {
               className="w-8 h-auto lg:w-[50px]"
             />
           </a>
-          <a target="_blank" href="https://t.me/AtumsAbyss">
+          <a target="_blank" href="https://t.me/+1Hy1N675pqg2ZjYy">
             <Image
               src="/telegram.png"
               alt="Telegram"
@@ -90,7 +90,7 @@ export default function HeroSection({ children }: HeroSectionProps) {
               className="w-8 h-auto lg:w-[50px]"
             />
           </a>
-          <a target="_blank" href="https://t.me/+1Hy1N675pqg2ZjYy">
+          <a target="_blank" href="https://t.me/AtumsAbyss ">
             <Image
               src="/telegram-chat.png"
               alt="Telegram Chat"
@@ -109,12 +109,19 @@ export default function HeroSection({ children }: HeroSectionProps) {
           height={167.03}
         />
         <div className="flex items-center gap-[25px] mt-[50px]">
-          <button className="uppercase px-[77px] pt-[43px] pb-[50px] btn-primary">
+          <a
+            href="#"
+            className="uppercase px-[77px] pt-[43px] pb-[50px] btn-primary"
+          >
             Download game
-          </button>
-          <button className="uppercase px-[100px] pt-[43px] pb-[50px] btn-secondary">
+          </a>
+          <a
+            target="_blank"
+            href="https://docs.google.com/document/d/1FR44chLJU_u0HIrK4GfGGQYg7hB2mCp4ojwYkDu7970/edit?tab=t.0#heading"
+            className="uppercase px-[100px] pt-[43px] pb-[50px] btn-secondary"
+          >
             Whitepaper
-          </button>
+          </a>
         </div>
         <Image
           src="/element-right-side.png"

@@ -3,7 +3,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <footer className="container mt-[63px] pb-[96px]">
-      <div className="flex justify-between items-center">
+      <div className="flex md:flex-row flex-col md:justify-between items-center">
         <Image
           className="mx-auto md:mx-0"
           src={"/Logo.png"}
@@ -11,6 +11,20 @@ const Footer = () => {
           width={100}
           height={91}
         />
+        <div className="font-camieis flex md:flex-row flex-col  gap-[32px] items-center mt-[42px]">
+          <a
+            href="https://docs.google.com/document/d/1FR44chLJU_u0HIrK4GfGGQYg7hB2mCp4ojwYkDu7970/edit?tab=t.0#heading=h.gar1d6bvexu3"
+            target="_blank"
+          >
+            Gamepaper
+          </a>
+          <a
+            href="https://docs.google.com/document/d/1FeNxNOHPnH0iZt31VsQRf3Ye6lh1jxUDWN_rpSQJEpA/edit?tab=t.0"
+            target="_blank"
+          >
+            Tokenomics
+          </a>
+        </div>
         <div className="hidden md:flex items-center gap-[42px]">
           <a
             href="https://x.com/atumsabyss?amp;t=ZWtpFXI_vRnyFtYoUAlwcw"
@@ -31,14 +45,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className="font-camieis flex lg:flex-row flex-col lg:gap-0 gap-[16px] items-center justify-between mt-[42px]">
-        <p>Atum's drop</p>
-        <p>Try Demo</p>
-        <p>Gamepaper</p>
-        <p>Tokenomics</p>
-        <p>Terms and Conditions</p>
-        <p>Privacy Policy</p>
-      </div>
+
       <div className="flex md:hidden mx-auto w-fit mt-[32px] items-center gap-[42px]">
         <a
           href="https://x.com/atumsabyss?amp;t=ZWtpFXI_vRnyFtYoUAlwcw"

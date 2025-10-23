@@ -17,8 +17,11 @@
 
 body {
   color: var(--foreground);
-
   background: url("/bg.png") center center / cover;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 button {
@@ -195,7 +198,7 @@ button {
 }
 
 .weapon {
-  background: url("/weapon-bg.png") bottom center / contain no-repeat;
+  background: url("/weapon-bg.png") bottom center / cover no-repeat;
 }
 
 .embla {

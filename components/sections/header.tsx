@@ -12,7 +12,7 @@ const Header = () => {
           <Image src="/Logo.png" alt="logo" width={43.15} height={38.83} />
           <ul className="hidden lg:flex gap-[42px] uppercase">
             <li>
-              <a href="#">ABOUT US</a>
+              <a href="#overview">ABOUT US</a>
             </li>
             <li>
               <a href="#">GAMEPAPER</a>
@@ -51,19 +51,29 @@ const Header = () => {
         <div className="lg:hidden absolute top-full right-0 max-w-[260px] w-full bg-black/90 backdrop-blur-sm">
           <ul className="flex flex-col items-center gap-6 uppercase text-white py-8">
             <li>
-              <a href="#">ABOUT US</a>
+              <a onClick={() => setIsOpen(false)} href="#overview">
+                ABOUT US
+              </a>
             </li>
             <li>
-              <a href="#">GAMEPAPER</a>
+              <a onClick={() => setIsOpen(false)} href="#">
+                GAMEPAPER
+              </a>
             </li>
             <li>
-              <a href="#">CHARACTERS</a>
+              <a onClick={() => setIsOpen(false)} href="#">
+                CHARACTERS
+              </a>
             </li>
             <li>
-              <a href="#">NFTS</a>
+              <a onClick={() => setIsOpen(false)} href="#">
+                NFTS
+              </a>
             </li>
             <li>
-              <a href="#">ROADMAP</a>
+              <a onClick={() => setIsOpen(false)} href="#">
+                ROADMAP
+              </a>
             </li>
           </ul>
           <div className="flex justify-center pb-8">

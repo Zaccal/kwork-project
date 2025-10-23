@@ -52,9 +52,13 @@ const Tokenomics = () => {
               mechanisms and economic incentives.
             </p>
             <div className="flex justify-center">
-              <button className="btn_watch-trailer font-camieis text-base md:text-2xl mx-auto text-white px-[72px] md:px-[110px] text-nowrap py-[43px]">
+              <a
+                target="_blank"
+                href="https://docs.google.com/document/d/1FeNxNOHPnH0iZt31VsQRf3Ye6lh1jxUDWN_rpSQJEpA/edit?usp=drivesdk"
+                className="btn_watch-trailer font-camieis text-base md:text-2xl mx-auto text-white px-[72px] md:px-[110px] text-nowrap py-[43px]"
+              >
                 Tokenomics
-              </button>
+              </a>
             </div>
           </div>
 
