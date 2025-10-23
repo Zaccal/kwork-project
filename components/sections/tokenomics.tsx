@@ -71,7 +71,7 @@ const Tokenomics = () => {
             Use cases
           </h3>
           <div className="relative z-10 space-y-5 md:space-y-0 md:flex items-start mt-[37px] gap-[70px] font-camieis uppercase">
-            <ul className="space-y-[22px]">
+            <ul className="space-y-[22px] lg:text-base text-[13px]">
               <li className="flex gap-5 items-center">
                 <Image src={"/list.svg"} alt="list" width={34} height={34} />
                 <p>Trading NFT assets between players</p>
@@ -89,23 +89,33 @@ const Tokenomics = () => {
                 <p>Buying skins</p>
               </li>
             </ul>
-            <ul className="space-y-[22px]">
+            <ul className="space-y-[22px] lg:text-base text-[13px]">
               <li className="flex gap-5 items-center">
                 <Image src={"/list.svg"} alt="list" width={34} height={34} />
-                <p>Trading NFT assets between players</p>
+                <p>Buying in-game items</p>
+              </li>
+              <li className="md:hidden flex gap-5 items-center">
+                <Image src={"/list.svg"} alt="list" width={34} height={34} />
+                <p>Purchase of lands</p>
+              </li>
+              <li className="md:hidden flex gap-5 items-center">
+                <Image src={"/list.svg"} alt="list" width={34} height={34} />
+                <p>Energy recharge (P2E mode)</p>
               </li>
               <li className="flex gap-5 items-center">
                 <Image src={"/list.svg"} alt="list" width={34} height={34} />
-                <p>Buying consumables</p>
+                <p>Level Up</p>
+              </li>
+
+              <li className="flex gap-5 items-center">
+                <Image src={"/list.svg"} alt="list" width={34} height={34} />
+                <p>Forging / Minting of NFT assets</p>
               </li>
               <li className="flex gap-5 items-center">
                 <Image src={"/list.svg"} alt="list" width={34} height={34} />
-                <p>Buying characters</p>
+                <p>Participation in additional modes / duels</p>
               </li>
-              <li className="flex gap-5 items-center">
-                <Image src={"/list.svg"} alt="list" width={34} height={34} />
-                <p>Buying skins</p>
-              </li>
+
               <div className="mt-[100px] md:ml-12">
                 <p className="text-[18px] lg:text-2xl font-camieis flex flex-col">
                   <span>Contract address</span>

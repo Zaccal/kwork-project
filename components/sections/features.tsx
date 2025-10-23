@@ -33,11 +33,13 @@ const Features = () => {
             height={95}
           />
 
-          <div className="flex items-center uppercase gap-[17px]">
-            <h2 className="text-nowrap text-xl lg:text-[48px] relative w-fit font-camieis mt-[30px]">
+          <div className="flex items-baseline-last lg:items-center uppercase gap-[16px] lg:gap-[17px]">
+            <h2 className="text-nowrap text-xl lg:text-[48px] relative w-fit font-camieis lg:mt-[30px]">
               - Weapons
             </h2>
-            <span className={`lg:text-[24px] ${rimma.className}`}>+10</span>
+            <span className={`text-[18px] lg:text-[24px] ${rimma.className}`}>
+              +10
+            </span>
           </div>
           <p className="leading-[140%] max-w-[342px] lg:pl-8.5 mt-3">
             The player's arsenal includes a variety of weapons: rifles, circular
@@ -54,17 +56,21 @@ const Features = () => {
             className="mt-5 mb-6 lg:hidden block"
             alt="feature-container"
           />
-          <div className="flex items-center uppercase gap-[17px]">
+          <div className="flex items-baseline-last lg:items-center uppercase gap-[16px] lg:gap-[17px]">
             <h2 className="text-nowrap text-xl lg:text-[48px] relative w-fit font-camieis mt-[30px]">
               - location
             </h2>
-            <span className={`lg:text-[24px] ${rimma.className}`}>+5</span>
+            <span className={`text-[18px] lg:text-[24px] ${rimma.className}`}>
+              +5
+            </span>
           </div>
-          <div className="flex items-center uppercase gap-[17px]">
+          <div className="flex items-baseline-last lg:items-center uppercase gap-[16px] lg:gap-[17px]">
             <h2 className="text-nowrap text-xl lg:text-[48px] relative w-fit font-camieis mt-[30px]">
               - Heroes
             </h2>
-            <span className={`lg:text-[24px] ${rimma.className}`}>+3</span>
+            <span className={`text-[18px] lg:text-[24px] ${rimma.className}`}>
+              +3
+            </span>
           </div>
         </div>
         <div className="features__wrapper z-10 px-2 lg:flex items-end justify-between lg:pb-[83px] lg:pr-[72px] lg:pl-[92px] lg:mt-5 lg:mb-[42px] h-full lg:ml-[98px] lg:mr-[46px]">
@@ -77,7 +83,7 @@ const Features = () => {
               height={95}
             />
 
-            <div className="flex items-center uppercase gap-[17px]">
+            <div className="flex items-baseline-last lg:items-center uppercase gap-[16px] lg:gap-[17px]">
               <h2 className="text-nowrap text-xl lg:text-[48px] relative w-fit font-camieis mt-[30px]">
                 - Weapons
               </h2>
@@ -98,13 +104,13 @@ const Features = () => {
               className="mt-5 mb-6 lg:hidden block"
               alt="feature-container"
             />
-            <div className="flex items-center uppercase gap-[17px]">
+            <div className="flex items-baseline-last lg:items-center uppercase gap-[16px] lg:gap-[17px]">
               <h2 className="text-nowrap text-xl lg:text-[48px] relative w-fit font-camieis mt-[30px]">
                 - location
               </h2>
               <span className={`lg:text-[24px] ${rimma.className}`}>+5</span>
             </div>
-            <div className="flex items-center uppercase gap-[17px]">
+            <div className="flex items-baseline-last lg:items-center uppercase gap-[16px] lg:gap-[17px]">
               <h2 className="text-nowrap text-xl lg:text-[48px] relative w-fit font-camieis mt-[30px]">
                 - Heroes
               </h2>

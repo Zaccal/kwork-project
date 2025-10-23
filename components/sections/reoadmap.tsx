@@ -2,12 +2,25 @@
 
 import useEmblaCarousel from "embla-carousel-react";
 import ReoadmapCard from "../ui/reoadmap-card";
+import { useEffect, useState } from "react";
 
 const Reoadmap = () => {
+  const [isMobile, setIsMobile] = useState(false);
   const [emblaRef] = useEmblaCarousel({
     loop: true,
-    align: 'start'
+    align: "start",
   });
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth > 768);
+    };
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   return (
     <section className="pb-[117px] md:pt-0 pt-[60px]">
@@ -16,8 +29,20 @@ const Reoadmap = () => {
       </h1>
 
       <div className="w-screen flex items-start gap-[62px]">
-        <div ref={emblaRef} className="embla w-full">
+        <div ref={emblaRef} className="ml-[10px] embla w-full">
           <div className="embla__container gap-[70px]">
+            <div className="embla__slide md:hidden">
+              <ReoadmapCard
+                title="2026 Q4"
+                active={isMobile}
+                items={[
+                  "Beta Readiness",
+                  "NFT Usage",
+                  "Playable Version on Blockchain",
+                  "In-game NFT Marketplace",
+                ]}
+              />
+            </div>
             <div className="embla__slide">
               <ReoadmapCard
                 title="2026 Q1-Q2"
@@ -57,7 +82,7 @@ const Reoadmap = () => {
             <div className="embla__slide">
               <ReoadmapCard
                 title="2026 Q4"
-                active
+                active={isMobile}
                 items={[
                   "Beta Readiness",
                   "NFT Usage",
@@ -111,7 +136,7 @@ const Reoadmap = () => {
             <div className="embla__slide">
               <ReoadmapCard
                 title="2026 Q4"
-                active
+                active={isMobile}
                 items={[
                   "Beta Readiness",
                   "NFT Usage",
