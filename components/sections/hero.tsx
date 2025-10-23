@@ -81,15 +81,6 @@ export default function HeroSection({ children }: HeroSectionProps) {
               className="w-8 h-auto lg:w-[50px]"
             />
           </a>
-          <a target="_blank" href="https://discord.gg/atumsabyss">
-            <Image
-              src="/discord.png"
-              alt="Discord"
-              width={50}
-              height={56}
-              className="w-8 h-auto lg:w-[50px]"
-            />
-          </a>
           <a target="_blank" href="https://t.me/AtumsAbyss">
             <Image
               src="/telegram.png"

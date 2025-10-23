@@ -6,6 +6,7 @@ import ReoadmapCard from "../ui/reoadmap-card";
 const Reoadmap = () => {
   const [emblaRef] = useEmblaCarousel({
     loop: true,
+    align: 'start'
   });
 
   return (
