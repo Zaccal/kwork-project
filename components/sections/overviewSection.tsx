@@ -29,7 +29,7 @@ const OverviewSection = () => {
         </div>
       </div>
 
-      <div className="trailer flex items-center justify-center mt-[61px] max-w-[972px] max-h-[596px] pt-[76px] pb-[80px] pr-[79px] pl-[69px] sm:px-[291px] sm:py-[237px]">
+      <div className="trailer flex items-center justify-center mt-[61px] max-w-[972px] max-h-[596px] pt-[76px] pb-[80px] pr-[79px] pl-[69px] md:pt-[124px] md:pb-[124px] md:px-[124px] sm:px-[291px] sm:py-[237px]">
         <button className="btn_watch-trailer font-camieis text-base md:text-2xl text-white px-[36px] text-nowrap md:px-[87px] py-[25px] md:pt-[43px] md:pb-[50px]">
           Watch trailer
         </button>
