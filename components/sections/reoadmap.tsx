@@ -23,7 +23,7 @@ const Reoadmap = () => {
   }, []);
 
   return (
-    <section className="pb-[117px] md:pt-0 pt-[60px]">
+    <section id="roadmap" className="pb-[117px] md:pt-0 pt-[60px]">
       <h1 className="font-camieis uppercase text-[32px] md:text-5xl lg:text-6xl xl:text-[100px] text-center mb-[37px] md:mb-[142px]">
         Roadmap
       </h1>

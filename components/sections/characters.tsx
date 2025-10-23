@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Characters = () => {
   return (
-    <section className="characters">
+    <section id="characters" className="characters">
       <h1 className="font-camieis text-center mb-[42px] lg:mb-[100px] uppercase text-[32px] md:text-[60px] lg:text-[100px]">
         Characters
       </h1>

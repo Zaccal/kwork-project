@@ -14,7 +14,10 @@ const Weapons = () => {
   ];
 
   return (
-    <section className="weapon pb-[200px] lg:pb-[100vh] pt-[237px] sm:px-4 px-0">
+    <section
+      id="nfts"
+      className="weapon pb-[200px] lg:pb-[100vh] pt-[237px] sm:px-4 px-0"
+    >
       <h1 className="text-[32px] md:text-5xl font-camieis uppercase lg:text-[100px] text-center mb-[24px] lg:mb-[70px]">
         NFT weapons
       </h1>

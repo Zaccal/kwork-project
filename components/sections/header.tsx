@@ -15,16 +15,21 @@ const Header = () => {
               <a href="#overview">ABOUT US</a>
             </li>
             <li>
-              <a href="#">GAMEPAPER</a>
+              <a
+                target="_blank"
+                href="https://docs.google.com/document/d/1FR44chLJU_u0HIrK4GfGGQYg7hB2mCp4ojwYkDu7970/edit?tab=t.0#heading=h.gar1d6bvexu3"
+              >
+                GAMEPAPER
+              </a>
             </li>
             <li>
-              <a href="#">CHARACTERS</a>
+              <a href="#characters">CHARACTERS</a>
             </li>
             <li>
-              <a href="#">NFTS</a>
+              <a href="#nfts">NFTS</a>
             </li>
             <li>
-              <a href="#">ROADMAP</a>
+              <a href="#roadmap">ROADMAP</a>
             </li>
           </ul>
           <button className="hidden lg:flex btn_light items-center gap-[6.62px] text-[13px] text-[#dd0601] px-2.5 py-[18px]">
@@ -56,22 +61,26 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a onClick={() => setIsOpen(false)} href="#">
+              <a
+                onClick={() => setIsOpen(false)}
+                target="_blank"
+                href="https://docs.google.com/document/d/1FR44chLJU_u0HIrK4GfGGQYg7hB2mCp4ojwYkDu7970/edit?tab=t.0#heading=h.gar1d6bvexu3"
+              >
                 GAMEPAPER
               </a>
             </li>
             <li>
-              <a onClick={() => setIsOpen(false)} href="#">
+              <a onClick={() => setIsOpen(false)} href="#characters">
                 CHARACTERS
               </a>
             </li>
             <li>
-              <a onClick={() => setIsOpen(false)} href="#">
+              <a onClick={() => setIsOpen(false)} href="#nfts">
                 NFTS
               </a>
             </li>
             <li>
-              <a onClick={() => setIsOpen(false)} href="#">
+              <a onClick={() => setIsOpen(false)} href="#roadmap">
                 ROADMAP
               </a>
             </li>
