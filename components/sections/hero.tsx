@@ -81,7 +81,7 @@ export default function HeroSection({ children }: HeroSectionProps) {
               className="w-8 h-auto lg:w-[50px]"
             />
           </a>
-          <a target="_blank" href="https://t.me/+1Hy1N675pqg2ZjYy">
+          <a target="_blank" href="https://t.me/AtumsAbyss">
             <Image
               src="/telegram.png"
               alt="Telegram"
@@ -90,7 +90,7 @@ export default function HeroSection({ children }: HeroSectionProps) {
               className="w-8 h-auto lg:w-[50px]"
             />
           </a>
-          <a target="_blank" href="https://t.me/AtumsAbyss ">
+          <a target="_blank" href="https://t.me/+1Hy1N675pqg2ZjYy">
             <Image
               src="/telegram-chat.png"
               alt="Telegram Chat"
