@@ -4,7 +4,7 @@ import Image from "next/image";
 import useEmblaCarousel from "embla-carousel-react";
 import { useState } from "react";
 
-const Weapons = () => {
+const NFTs = () => {
   const [emblaRef] = useEmblaCarousel();
   const [value, setValue] = useState(1);
 
@@ -18,7 +18,7 @@ const Weapons = () => {
   return (
     <section
       id="nfts"
-      className="weapon pb-[200px] lg:pb-[100vh] pt-[120px] md:pt-[237px] sm:px-4 px-0"
+      className="nfts pb-[200px] lg:pb-[100vh] pt-[120px] md:pt-[237px] sm:px-4 px-0"
     >
       <h1 className="text-[32px] md:text-5xl font-camieis uppercase lg:text-[100px] text-center mb-[24px] lg:mb-[70px]">
         NFT weapons
@@ -87,4 +87,4 @@ const Weapons = () => {
   );
 };
 
-export default Weapons;
+export default NFTs;

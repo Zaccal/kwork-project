@@ -2,9 +2,9 @@ import Image from "next/image";
 
 const CharacterAbilties = () => {
   return (
-    <div className="px-41">
+    <div className="px-4 md:px-0">
       <h4 className="font-camieis mb-[30px] text-2xl">Power-ups</h4>
-      <div className="flex flex-row lg:flex-col gap-[25px] lg:gap-0">
+      <div className="flex flex-row lg:flex-col gap-[18px] lg:gap-0">
         <div className="mb-11">
           <Image src={"/shilt.svg"} alt="shilt" width={110} height={110} />
           <p className="mb-3 text-[18px] mt-3 font-bold">Double damage</p>

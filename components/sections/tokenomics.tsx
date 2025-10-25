@@ -62,7 +62,7 @@ const Tokenomics = () => {
             </div>
           </div>
 
-          <div className="mt-12 lg:mt-0 lg:absolute bottom-1/2 left-[60%] z-10">
+          <div className="mt-12 lg:mt-0 mx-auto lg:mx-auto w-fit lg:w-auto lg:absolute bottom-1/2 left-[60%] z-10">
             <p className="text-[18px] lg:text-2xl font-camieis flex flex-col">
               <span>Token</span>
               <span className="text-xl lg:text-[42px] text-[#DD0403]">

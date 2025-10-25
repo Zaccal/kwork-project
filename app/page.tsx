@@ -9,7 +9,7 @@ import News from "@/components/sections/news";
 import OverviewSection from "@/components/sections/overviewSection";
 import Reoadmap from "@/components/sections/reoadmap";
 import Tokenomics from "@/components/sections/tokenomics";
-import Weapons from "@/components/sections/weapons";
+import NFTs from "@/components/sections/nfts";
 
 export default function Home() {
   return (
@@ -24,7 +24,7 @@ export default function Home() {
       </div>
 
       <Characters />
-      <Weapons />
+      <NFTs />
 
       <div className="overflow-x-hidden max-w-screen">
         <GameModels />

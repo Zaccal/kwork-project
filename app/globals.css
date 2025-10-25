@@ -197,8 +197,8 @@ button {
   }
 }
 
-.weapon {
-  background: url("/weapon-bg.png") bottom center / cover no-repeat;
+.nfts {
+  background: url("/weapon-bg.png") bottom center / contain no-repeat;
 }
 
 .embla {

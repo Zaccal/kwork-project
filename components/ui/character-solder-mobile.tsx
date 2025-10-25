@@ -5,7 +5,7 @@ const CharacterSolderMobile = () => {
     <div className="relative mb-[30px]">
       <Image
         src={"/characters-solder-mobile.png"}
-        alt="characters-solder"
+        alt="characters-solder-mobile"
         className="mx-auto pb-6 xl:hidden block lg:pb-0 lg:px-0 px-4"
         width={850}
         height={700}
