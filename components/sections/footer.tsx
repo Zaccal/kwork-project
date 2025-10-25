@@ -11,7 +11,7 @@ const Footer = () => {
           width={100}
           height={91}
         />
-        <div className="font-camieis flex md:flex-row flex-col  gap-[32px] items-center mt-[42px]">
+        <div className="font-camieis flex md:flex-row flex-col gap-[22px] md:gap-[32px] items-center mt-[42px]">
           <a
             href="https://docs.google.com/document/d/1FR44chLJU_u0HIrK4GfGGQYg7hB2mCp4ojwYkDu7970/edit?tab=t.0#heading=h.gar1d6bvexu3"
             target="_blank"
