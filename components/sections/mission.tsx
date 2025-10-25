@@ -20,7 +20,7 @@ const Mission = () => {
 
       <h1 className="uppercase relative  -mt-[78px] md:-mt-[30px] lg:mt-0 text-[32px] md:text-[64px] lg:text-[100px] text-center">
         <Image
-          className="absolute bottom-4 md:bottom-7 lg:bottom-10 z-10 right-1/2 translate-x-1/2 w-[251px] h-[233px] md:w-[400px] md:h-[375px] lg:w-[637px] lg:h-[582px]"
+          className="absolute bottom-[13.5px] md:bottom-7 lg:bottom-10 z-10 right-1/2 translate-x-1/2 w-[251px] h-[233px] md:w-[400px] md:h-[375px] lg:w-[637px] lg:h-[582px]"
           src="/title-soldiers.png"
           alt="title-soldiers"
           width={637}

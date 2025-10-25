@@ -36,7 +36,7 @@ const Features = () => {
       <div className="container">
         <h1 className="font-camieis text-[32px] sm:text-[60px] lg:text-[100px] text-center uppercase z-10 relative">
           <Image
-            className="absolute lg:hidden bottom-1/5 z-0 left-1/2 -translate-x-1/2"
+            className="absolute lg:hidden bottom-[22%] z-0 left-1/2 -translate-x-1/2"
             src="/soldiers-features.png"
             alt="features"
             width={351}

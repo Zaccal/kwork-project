@@ -61,12 +61,13 @@ export default function HeroSection({ children }: HeroSectionProps) {
           Conquer the Abyss Become a Legend!
         </p>
         <div className="flex flex-col lg:hidden items-center gap-4 mt-6">
-          <button className="uppercase w-full max-w-xs py-4 btn-secondary">
+          <a
+            target="_blank"
+            href="https://docs.google.com/document/d/1FR44chLJU_u0HIrK4GfGGQYg7hB2mCp4ojwYkDu7970/edit?tab=t.0#heading"
+            className="uppercase w-full max-w-xs py-4 btn-secondary"
+          >
             Whitepaper
-          </button>
-          <button className="uppercase w-full max-w-xs py-4 btn-primary">
-            Download game
-          </button>
+          </a>
         </div>
         <div className="mx-auto w-fit mt-8 lg:mt-[45px] flex items-center gap-8 lg:gap-[50px]">
           <a
@@ -109,12 +110,6 @@ export default function HeroSection({ children }: HeroSectionProps) {
           height={167.03}
         />
         <div className="flex items-center gap-[25px] mt-[50px]">
-          <a
-            href="#"
-            className="uppercase px-[77px] pt-[43px] pb-[50px] btn-primary"
-          >
-            Download game
-          </a>
           <a
             target="_blank"
             href="https://docs.google.com/document/d/1FR44chLJU_u0HIrK4GfGGQYg7hB2mCp4ojwYkDu7970/edit?tab=t.0#heading"
