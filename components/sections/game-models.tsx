@@ -51,52 +51,54 @@ const GameModels = () => {
             </p>
           </div>
         </div>
-
-        <div className="h-[50vh] sm:h-screen relative bg-no-repeat bg-contain flex items-center justify-center">
+        {/*  h-[20vh] sm:h-[50vh] md:h-screen*/}
+        <div className=" mt-24 relative bg-no-repeat bg-contain flex items-center justify-center">
           <Image
-            src={"/game-models-view-preview.png"}
+            src={"/game-models-view-preview.jpg"}
             alt="game-models-view-preview"
             width={1920}
             height={1080}
-            className="w-full h-full left-[60%] -translate-x-1/2 absolute z-[-1]"
+            className="w-full h-full relative z-[-1]"
           />
           <Image
             src={"/game-models-element.svg"}
             width={158}
             height={78}
             alt="player"
-            className="absolute w-[36px] h-[26px] sm:w-[158px] sm:h-[78px] top-[100px] left-5 sm:left-[100px] z-[2]"
+            className="absolute w-[36px] h-[26px] md:w-[158px] md:h-[78px] top-[10%] left-5 md:left-[100px] z-[2]"
           />
           <Image
             src={"/game-models-element.svg"}
             width={158}
             height={78}
             alt="player"
-            className="absolute w-[36px] h-[26px] sm:w-[158px] sm:h-[78px] top-[100px] right-5 sm:right-[100px] z-[2]"
+            className="absolute w-[36px] h-[26px] md:w-[158px] md:h-[78px] top-[10%] right-5 md:right-[100px] z-[2]"
           />
-          <TrailerVideoTrigger>
-            <Image
-              src={"/player.svg"}
-              width={165}
-              height={165}
-              alt="player"
-              className="w-[45px] h-[45px] sm:w-[165px] sm:h-[165px] z-[2]"
-            />
-          </TrailerVideoTrigger>
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 z-[2]">
+            <TrailerVideoTrigger>
+              <Image
+                src={"/player.svg"}
+                width={165}
+                height={165}
+                alt="player"
+                className="w-[45px] h-[45px] md:w-[165px] md:h-[165px] z-[2]"
+              />
+            </TrailerVideoTrigger>
+          </div>
 
           <Image
             src={"/game-models-bg-element-left.png"}
             width={307}
             height={167}
             alt="player"
-            className="absolute sm:w-[307px] sm:h-[167px] w-[111px] h-[38px] bottom-[25px] left-0 z-[2]"
+            className="absolute md:w-[307px] md:h-[167px] w-[111px] h-[38px] bottom-[25px] left-0 z-[2]"
           />
           <Image
             src={"/game-models-bg-element-right.png"}
             width={307}
             height={167}
             alt="player"
-            className="absolute bottom-[25px] right-0 z-[2] sm:w-[307px] sm:h-[167px] w-[111px] h-[38px]"
+            className="absolute bottom-[25px] right-0 z-[2] md:w-[307px] md:h-[167px] w-[111px] h-[38px]"
           />
         </div>
         <TrailerVideoContent link="https://www.youtube.com/embed/5PzYcH_LrQ4?si=tVpHavczvmaKbxy8" />
